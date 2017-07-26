@@ -1,0 +1,94 @@
+#accusation .container-fluid a{
+    color: #337ab7;
+    font-size: 16px;
+    font-weight: bold;
+}
+#accusation .container-fluid a:hover{
+    text-decoration: underline;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand img{
+    max-height: 50px;
+}
+.item{
+    text-align: left;
+    padding: 10px 10px 0 0;
+    border-bottom: 1px solid rgba(51, 135, 183, 0.49);
+}
+.item .form-control{
+    height: 25px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+.item textarea.form-control{
+    width: 100%;
+}
+.item>.itemInput{
+    margin-left: 15px;
+}
+#code-div input.form-control{
+    width: 150px;
+    height: 25px;
+    display: inline-block;
+}
+#codeImg{
+    max-height: 25px;
+}
+.navbar{
+    margin-bottom: 5px;
+}
+.itemName{
+    width: 130px;
+    text-align: right;
+}
+.multipleInput .itemName, .multipleInput .itemInput{
+    display: inline-block;
+    vertical-align: middle;
+}
+.title-tip{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.index-footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 1px #ccc solid;
+    padding-top: 10px;
+}
+.time-choose:read-only{
+    background-color: #fff;
+    cursor: pointer;
+}
+#beAccusationTable {
+    table-layout: fixed;
+    width: 650px;
+    display: none;
+}
+#beAccusationTable th{
+    width: 40%;
+}
+#beAccusationTable th:last-child{
+    width: 20%;
+}
+#beAccusationTable th,
+#beAccusationTable td{
+    text-align: center;
+}
+#beAccusationTable button.btn-danger{
+    border-radius: 50%;
+    outline: none;
+    width: 25px;
+    height: 25px;
+}
+#addBeAccusation{
+    vertical-align: top;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    outline: none;
+}
